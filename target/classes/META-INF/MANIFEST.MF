@@ -1,0 +1,34 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1421336595355
+Build-Jdk: 1.7.0_45
+Built-By: pcjoshi
+Bundle-Activator: org.drools.example.osgi.CheesePreferredRuleOsgiActivat
+ or
+Bundle-ManifestVersion: 2
+Bundle-Name: Drools OSGi Example :: Simple XLS Decision Table rule
+Bundle-SymbolicName: simple-decisiontable
+Bundle-Version: 1.0.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: org.drools.example.model;version="1.0.0.SNAPSHOT",org.dr
+ ools.example.osgi;uses:="org.osgi.framework";version="1.0.0.SNAPSHOT",o
+ rg.drools.example.rule;uses:="org.drools.example.model";version="1.0.0.
+ SNAPSHOT"
+Import-Package: org.kie.api;version="[6.0,7)",org.kie.api.runtime;versio
+ n="[6.0,7)",org.kie.api.runtime.rule;version="[6.0,7)",org.osgi.framewo
+ rk;version="[1.7,2)",org.drools.core.command.runtime.rule;version="[6.0
+ ,7)",org.kie.internal;version="[6.0,7)",org.drools.core;version="[6.0,7
+ )",org.drools.core.common;version="[6.0,7)",org.drools.core.base.evalua
+ tors;version="[6.0,7)",org.drools.core.command.runtime;version="[6.0,7)
+ ",org.drools.compiler.rule.builder.dialect.mvel;version="[6.0,7)",org.d
+ rools.core.spi;version="[6.0,7)",org.drools.core.base.accumulators;vers
+ ion="[6.0,7)",org.kie.api.definition.rule;version="[6.0,7)",org.drools.
+ core.base;version="[6.0,7)",org.drools.core.rule.builder.dialect.asm;ve
+ rsion="[6.0,7)",org.eclipse.jdt.internal.compiler,org.drools.compiler.c
+ ompiler;version="[6.0,7)",org.drools.core.base.extractors;version="[6.0
+ ,7)",org.kie.api.builder.model;version="[6.0,7)",org.kie.api.builder;ve
+ rsion="[6.0,7)",org.slf4j;version="[1.6,2)",org.drools.core.conflict;ve
+ rsion="[6.0,7)",org.drools.core.reteoo;version="[6.0,7)",org.kie.intern
+ al.runtime.manager;version="[6.0,7)",org.kie.internal.io;version="[6.0,
+ 7)",org.kie.internal.runtime.manager.context;version="[6.0,7)",org.kie.
+ internal.runtime;version="[6.0,7)",org.kie.api.io;version="[6.0,7)"
+Tool: Bnd-2.1.0.20130426-122213
