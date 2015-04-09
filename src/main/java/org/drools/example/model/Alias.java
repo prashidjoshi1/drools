@@ -6,6 +6,7 @@ public class Alias implements Serializable{
 
     public static String aliasName;
     private String aliasType;
+ //private String aliasType;
    
     public Alias() {
 
