@@ -7,6 +7,7 @@ import java.util.List;
 public class Access implements Serializable {
 
     public String type;
+ 	//public String type;
     private String newName;
     private int price;
     
