@@ -12,6 +12,7 @@
     <groupId>org.drools.example</groupId>
     <artifactId>simple-decisiontable</artifactId>
     <version>1.0.0-SNAPSHOT</version>
+<version1>1.0.0-SNAPSHOT</version1>
 
     <name>Drools OSGi Example :: Simple XLS Decision Table rule</name>
     <packaging>bundle</packaging>
